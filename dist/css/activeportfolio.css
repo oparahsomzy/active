@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+.navbar .nav-link:hover{
+    color: rgb(35, 163, 26);
+}
+.green{
+    background-color: rgb(40, 171, 40);
+    
+}
+.number{
+    color: rgb(9, 9, 70);
+}
+.activee{
+    background-color: rgb(24, 181, 24);
+    border-radius: 50px;
+    color: white;
+}
+.all a{
+    color: black;
+}
+.all a:hover{
+    background-color: rgb(24, 181, 24);
+    border-radius: 50px;
+    color: white;
+}
+.portfolio-item{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    background: rgb(255, 253, 253);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s ease;
+}
+.portfolio-item:hover .portfolio-overlay{
+    bottom: 0;
+}
+.icons:hover{
+    color: rgb(77, 192, 28) !important;
+}
+.happy{
+    font-size: 15px;
+}
+.live2{
+    font-size: 16.5px;
+}
+.blue{
+    bottom: -40px;
+}
+.blue button{
+    background-color: gray !important; 
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 50% !important;
+}
+.blue .active{
+    background-color:rgb(9, 9, 70) !important;
+}
+.footer{
+    font-size: 14px;
+}
+.now{
+    background-color: rgb(29, 196, 84);
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: none;
+}
+.icon{
+    border: 1px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(215, 215, 215);
+}
+.numbers{
+    color: rgba(7, 7, 56, 0.844);
+    font-size: 16px;
+}
+.email{
+    border-radius: 5px;
+    border: 2px solid rgb(145, 144, 144);
+    background: transparent;
+}
+.pointer{
+    cursor: pointer;
+}
+@media (max-width:576px){
+    .portfolio-overlay{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}

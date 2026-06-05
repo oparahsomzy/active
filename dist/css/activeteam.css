@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+.navbar .nav-link:hover{
+    color: rgb(35, 163, 26);
+}
+.green{
+    background-color: rgb(40, 171, 40);
+    
+}
+.number{
+    color: rgb(9, 9, 70);
+}
+.more:hover{
+    color: rgb(120, 255, 47);
+}
+.more{
+    color: black;
+}
+.control{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background: rgb(13, 180, 11);
+    opacity: 0.8;
+}
+.carousel-control-prev{
+    left: 93%;
+    top: -50px;
+}
+.carousel-control-next{
+    right: 5px;
+    top: -50px;
+}
+.footer{
+    font-size: 14px;
+}
+.now{
+    background-color: rgb(29, 196, 84);
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: none;
+}
+.icon{
+    border: 1px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(215, 215, 215);
+}
+.numbers{
+    color: rgba(7, 7, 56, 0.844);
+    font-size: 16px;
+}
+.email{
+    border-radius: 5px;
+    border: 2px solid rgb(145, 144, 144);
+    background: transparent;
+}
+.pointer{
+    cursor: pointer;
+}
+.empty{
+    background-color: rgb(179, 179, 179);
+}

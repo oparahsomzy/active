@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+.navbar .nav-link:hover{
+    color: rgb(35, 163, 26);
+}
+.green{
+    background-color: rgb(40, 171, 40);
+    
+}
+.section img{
+    max-height: 450px;
+    object-fit: cover;
+}
+.number{
+    color: rgb(9, 9, 70);
+}
+.green2{
+    width: 25px;
+    height: 2px;
+    background-color: rgb(29, 196, 84);
+}
+.live:hover{
+    color: rgb(35, 163, 26);
+}
+.clean:hover{
+    background: white;
+}
+.buy{
+    background-color: white;
+    border: 1px solid rgb(29, 196, 84) ;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+.now{
+    background-color: rgb(29, 196, 84);
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: none;
+}
+.rec{
+    background-color: rgb(238, 245, 234);
+    /* padding: 5px 10px; */
+}
+.happy{
+    font-size: 15px;
+}
+.live2{
+    font-size: 16.5px;
+}
+.blue{
+    bottom: -40px;
+}
+.blue button{
+    background-color: gray !important; 
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 50% !important;
+}
+.blue .active{
+    background-color:rgb(9, 9, 70) !important;
+}
+.footer{
+    font-size: 14px;
+}
+.icon{
+    border: 1px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(215, 215, 215);
+}
+.numbers{
+    color: rgba(7, 7, 56, 0.844);
+    font-size: 16px;
+}
+.email{
+    border-radius: 5px;
+    border: 2px solid rgb(145, 144, 144);
+    background: transparent;
+}
+.pointer{
+    cursor: pointer;
+}

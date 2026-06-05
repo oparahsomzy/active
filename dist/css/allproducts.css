@@ -1,0 +1,41 @@
+.up{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.list{
+    display: flex;
+    gap: 40px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.purp{
+    padding-top: 80px;
+    background-color: rgb(99, 10, 124);
+    color: white;
+}
+.shop{
+    background: url(../../img/img9.avif);
+    padding: 130px;
+}
+.shop h3{
+    font-size: 90px;
+    color: white;
+}
+.footer{
+    background-color: rgb(237, 233, 233);
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerlink li{
+    list-style-type: none;
+}
+.footerlink a{
+    color: black;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+    
+}
